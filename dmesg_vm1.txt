@@ -1,0 +1,544 @@
+[  471.390799] fastswap_rdma: start: sswap_rdma_init_module
+[  471.390801] fastswap_rdma: * RDMA BACKEND *
+[  471.390839] fastswap_rdma: sswap_rdma_addone() = mlx4_0
+[  471.390842] fastswap_rdma: will try to connect to 10.0.0.2:50000
+[  471.390846] fastswap_rdma: start: sswap_rdma_parse_ipaddr
+[  471.390848] fastswap_rdma: start: sswap_rdma_parse_ipaddr
+[  471.390849] fastswap_rdma: start: sswap_rdma_init_queue
+[  471.391678] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe7e67400
+[  471.391681] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  471.391683] fastswap_rdma: selecting device mlx4_0
+[  471.391688] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  471.392372] fastswap_rdma: start: sswap_rdma_create_qp
+[  471.393468] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe7e67400
+[  471.393470] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.374322] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe7e67400
+[  489.374329] fastswap_rdma: connection established
+[  489.374456] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.374495] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe7e62000
+[  489.374497] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.374498] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.375230] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.376445] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe7e62000
+[  489.376454] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.379006] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe7e62000
+[  489.379013] fastswap_rdma: connection established
+[  489.379122] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.379155] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe7e61c00
+[  489.379157] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.379158] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.379873] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.380939] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe7e61c00
+[  489.380942] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.383218] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe7e61c00
+[  489.383225] fastswap_rdma: connection established
+[  489.383335] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.383369] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe7e63c00
+[  489.383370] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.383371] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.383997] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.385254] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe7e63c00
+[  489.385257] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.387626] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe7e63c00
+[  489.387633] fastswap_rdma: connection established
+[  489.387742] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.387775] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe882f800
+[  489.387776] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.387777] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.388395] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.389546] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe882f800
+[  489.389550] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.391929] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe882f800
+[  489.391936] fastswap_rdma: connection established
+[  489.392036] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.392067] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe8829c00
+[  489.392068] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.392069] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.392727] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.393801] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe8829c00
+[  489.393804] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.395942] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe8829c00
+[  489.395950] fastswap_rdma: connection established
+[  489.396051] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.396083] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe882f000
+[  489.396085] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.396086] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.396789] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.397889] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe882f000
+[  489.397892] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.400134] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe882f000
+[  489.400141] fastswap_rdma: connection established
+[  489.400242] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.400273] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe8839400
+[  489.400275] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.400276] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.401008] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.402074] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe8839400
+[  489.402078] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.404391] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe8839400
+[  489.404398] fastswap_rdma: connection established
+[  489.404427] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.404466] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe883d400
+[  489.404468] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.404469] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.405160] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.406188] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe883d400
+[  489.406192] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.408534] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe883d400
+[  489.408542] fastswap_rdma: connection established
+[  489.408590] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.408621] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe8839c00
+[  489.408622] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.408623] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.409164] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.410196] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe8839c00
+[  489.410200] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.412288] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe8839c00
+[  489.412295] fastswap_rdma: connection established
+[  489.412383] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.412424] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe883c400
+[  489.412425] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.412427] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.413100] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.414124] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe883c400
+[  489.414127] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.416464] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe883c400
+[  489.416471] fastswap_rdma: connection established
+[  489.416517] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.416549] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe883f400
+[  489.416551] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.416552] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.417177] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.418212] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe883f400
+[  489.418215] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.420287] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe883f400
+[  489.420293] fastswap_rdma: connection established
+[  489.420417] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.420457] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe883d800
+[  489.420459] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.420461] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.421126] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.422181] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe883d800
+[  489.422184] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.424476] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe883d800
+[  489.424484] fastswap_rdma: connection established
+[  489.424563] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.424602] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe883a800
+[  489.424604] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.424605] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.425270] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.426304] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe883a800
+[  489.426307] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.428555] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe883a800
+[  489.428576] fastswap_rdma: connection established
+[  489.428618] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.428650] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe8ff1400
+[  489.428651] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.428652] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.429274] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.430272] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe8ff1400
+[  489.430276] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.432372] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe8ff1400
+[  489.432377] fastswap_rdma: connection established
+[  489.432405] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.432445] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe8ff4400
+[  489.432454] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.432456] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.433108] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.434123] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe8ff4400
+[  489.434127] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.436283] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe8ff4400
+[  489.436290] fastswap_rdma: connection established
+[  489.436362] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.436393] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe8ff3800
+[  489.436395] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.436398] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.436956] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.437988] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe8ff3800
+[  489.437991] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.440228] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe8ff3800
+[  489.440236] fastswap_rdma: connection established
+[  489.440390] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.440430] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe8ff5400
+[  489.440431] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.440438] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.441136] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.443484] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe8ff5400
+[  489.443488] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.445685] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe8ff5400
+[  489.445692] fastswap_rdma: connection established
+[  489.445802] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.445834] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe8812000
+[  489.445836] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.445837] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.446473] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.447504] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe8812000
+[  489.447508] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.449774] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe8812000
+[  489.449781] fastswap_rdma: connection established
+[  489.449890] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.449924] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe8813800
+[  489.449925] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.449926] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.450553] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.451533] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe8813800
+[  489.451537] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.453751] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe8813800
+[  489.453759] fastswap_rdma: connection established
+[  489.453868] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.453913] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe885c000
+[  489.453914] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.453915] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.454542] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.455566] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe885c000
+[  489.455570] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.457766] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe885c000
+[  489.457773] fastswap_rdma: connection established
+[  489.457900] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.457933] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe885d800
+[  489.457934] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.457936] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.458567] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.459587] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe885d800
+[  489.459590] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.461885] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe885d800
+[  489.461893] fastswap_rdma: connection established
+[  489.462003] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.462036] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe8858400
+[  489.462038] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.462039] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.462666] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.463668] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe8858400
+[  489.463672] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.465947] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe8858400
+[  489.465955] fastswap_rdma: connection established
+[  489.466065] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.466098] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe8859000
+[  489.466099] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.466101] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.466735] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.467742] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe8859000
+[  489.467745] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.469882] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe8859000
+[  489.469888] fastswap_rdma: connection established
+[  489.469997] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.470030] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe717d800
+[  489.470032] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.470033] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.470644] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.471559] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe717d800
+[  489.471563] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.473796] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe717d800
+[  489.473804] fastswap_rdma: connection established
+[  489.473914] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.473947] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe717dc00
+[  489.473948] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.473949] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.474487] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.475499] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe717dc00
+[  489.475502] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.477764] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe717dc00
+[  489.477771] fastswap_rdma: connection established
+[  489.477903] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.477936] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe7178800
+[  489.477937] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.477939] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.478607] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.479611] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe7178800
+[  489.479615] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.481859] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe7178800
+[  489.481866] fastswap_rdma: connection established
+[  489.481976] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.482010] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe717bc00
+[  489.482011] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.482012] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.482633] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.483624] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe717bc00
+[  489.483627] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.485833] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe717bc00
+[  489.485840] fastswap_rdma: connection established
+[  489.485949] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.485983] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe717f000
+[  489.485984] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.485986] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.486605] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.487608] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe717f000
+[  489.487612] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.489891] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe717f000
+[  489.489898] fastswap_rdma: connection established
+[  489.490007] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.490041] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe717cc00
+[  489.490042] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.490043] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.490654] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.491600] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe717cc00
+[  489.491604] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.493847] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe717cc00
+[  489.493855] fastswap_rdma: connection established
+[  489.493963] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.493996] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe7179400
+[  489.493998] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.493999] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.494631] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.495640] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe7179400
+[  489.495644] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.497897] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe7179400
+[  489.497904] fastswap_rdma: connection established
+[  489.498014] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.498048] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe717b800
+[  489.498049] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.498050] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.498680] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.499693] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe717b800
+[  489.499696] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.501991] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe717b800
+[  489.501998] fastswap_rdma: connection established
+[  489.502108] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.502142] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe717fc00
+[  489.502143] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.502144] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.502760] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.503806] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe717fc00
+[  489.503809] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.506035] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe717fc00
+[  489.506043] fastswap_rdma: connection established
+[  489.506152] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.506185] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe717a400
+[  489.506186] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.506188] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.506794] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.507801] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe717a400
+[  489.507804] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.510040] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe717a400
+[  489.510047] fastswap_rdma: connection established
+[  489.510156] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.510188] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe717f800
+[  489.510190] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.510191] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.510833] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.511791] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe717f800
+[  489.511795] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.514023] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe717f800
+[  489.514030] fastswap_rdma: connection established
+[  489.514140] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.514174] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe717b400
+[  489.514175] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.514176] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.514784] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.515803] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe717b400
+[  489.515806] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.518211] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe717b400
+[  489.518213] fastswap_rdma: connection established
+[  489.518323] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.518356] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffea1b1800
+[  489.518358] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.518359] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.518912] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.519988] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffea1b1800
+[  489.519991] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.522254] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffea1b1800
+[  489.522261] fastswap_rdma: connection established
+[  489.522369] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.522403] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffea1b1000
+[  489.522404] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.522405] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.523021] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.523986] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffea1b1000
+[  489.523990] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.526330] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffea1b1000
+[  489.526339] fastswap_rdma: connection established
+[  489.526448] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.526481] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffea1b0400
+[  489.526482] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.526484] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.527121] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.528160] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffea1b0400
+[  489.528163] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.530281] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffea1b0400
+[  489.530288] fastswap_rdma: connection established
+[  489.530396] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.530429] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffea1b1c00
+[  489.530430] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.530431] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.531063] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.531987] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffea1b1c00
+[  489.531991] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.534274] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffea1b1c00
+[  489.534282] fastswap_rdma: connection established
+[  489.534390] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.534423] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffea1b3000
+[  489.534424] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.534425] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.534987] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.535980] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffea1b3000
+[  489.535983] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.538244] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffea1b3000
+[  489.538251] fastswap_rdma: connection established
+[  489.538361] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.538393] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffea1b0c00
+[  489.538395] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.538396] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.539029] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.540012] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffea1b0c00
+[  489.540016] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.542390] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffea1b0c00
+[  489.542398] fastswap_rdma: connection established
+[  489.542507] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.542540] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffea1b3800
+[  489.542541] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.542542] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.543174] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.544172] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffea1b3800
+[  489.544175] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.546316] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffea1b3800
+[  489.546323] fastswap_rdma: connection established
+[  489.546430] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.546464] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffea1b7000
+[  489.546466] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.546467] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.547084] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.548059] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffea1b7000
+[  489.548063] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.550296] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffea1b7000
+[  489.550304] fastswap_rdma: connection established
+[  489.550413] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.550446] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe8fe1000
+[  489.550448] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.550449] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.551066] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.552007] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe8fe1000
+[  489.552011] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.554278] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe8fe1000
+[  489.554285] fastswap_rdma: connection established
+[  489.554394] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.554428] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe8fe2c00
+[  489.554429] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.554430] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.554999] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.556005] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe8fe2c00
+[  489.556008] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.558412] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe8fe2c00
+[  489.558420] fastswap_rdma: connection established
+[  489.558529] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.558562] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe8fe0800
+[  489.558563] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.558564] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.559196] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.560188] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe8fe0800
+[  489.560192] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.562356] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe8fe0800
+[  489.562363] fastswap_rdma: connection established
+[  489.562471] fastswap_rdma: start: sswap_rdma_init_queue
+[  489.562504] fastswap_rdma: cm_handler msg: address resolved (0) status 0 id ffffa0ffe70da000
+[  489.562505] fastswap_rdma: start: sswap_rdma_addr_resolved
+[  489.562507] fastswap_rdma: start: sswap_rdma_create_queue_ib
+[  489.563119] fastswap_rdma: start: sswap_rdma_create_qp
+[  489.564094] fastswap_rdma: cm_handler msg: route resolved  (2) status 0 id ffffa0ffe70da000
+[  489.564097] fastswap_rdma: max_qp_rd_atom=16 max_qp_init_rd_atom=128
+[  489.566426] fastswap_rdma: cm_handler msg: established (9) status 0 id ffffa0ffe70da000
+[  489.566433] fastswap_rdma: connection established
+[  489.566543] fastswap_rdma: start: sswap_rdma_recv_remotemr
+[  490.486491] fastswap_rdma: servermr baseaddr=7f8cb2cfb010, key=65792
+[  490.486492] fastswap_rdma: ctrl is ready for reqs
+[  636.835914] Adding 5242876k swap on /swapfile.  Priority:-1 extents:11 across:5955580k FS
+[ 1454.313834] ------------[ cut here ]------------
+[ 1454.313855] kernel BUG at mm/page_io.c:385!
+[ 1454.313880] invalid opcode: 0000 [#1] SMP
+[ 1454.313901] Modules linked in: fastswap_rdma(OE) rdma_ucm(OE) ib_ucm(OE) ib_ipoib(OE) ib_uverbs(OE) ib_umad(OE) mlx5_fpga_tools(OE) mlx5_ib(OE) mlx5_core(OE) mlxfw(OE) mlx4_ib(OE) edac_core kvm_intel kvm irqbypass input_leds intel_rapl_perf joydev serio_raw virtio_rng qemu_fw_cfg lpc_ich shpchp mac_hid ib_iser(OE) rdma_cm(OE) iw_cm(OE) ib_cm(OE) ib_core(OE) configfs iscsi_tcp libiscsi_tcp libiscsi scsi_transport_iscsi knem(OE) autofs4 btrfs raid10 raid456 async_raid6_recov async_memcpy async_pq async_xor async_tx xor raid6_pq libcrc32c raid1 raid0 multipath linear mlx4_en(OE) ptp pps_core hid_generic usbhid hid qxl crct10dif_pclmul ttm crc32_pclmul ghash_clmulni_intel drm_kms_helper pcbc syscopyarea sysfillrect aesni_intel sysimgblt aes_x86_64 fb_sys_fops crypto_simd mlx4_core(OE) ahci psmouse glue_helper
+[ 1454.314265]  devlink cryptd drm libahci mlx_compat(OE) virtio_blk virtio_net
+[ 1454.314308] CPU: 0 PID: 3079 Comm: python3 Tainted: G           OE   4.11.0-fastswap #1
+[ 1454.314363] Hardware name: QEMU Standard PC (Q35 + ICH9, 2009), BIOS ArchLinux 1.14.0-1 04/01/2014
+[ 1454.314404] task: ffffa0fff1a51d00 task.stack: ffffb97783598000
+[ 1454.314443] RIP: 0010:swap_readpage_sync+0xe/0x20
+[ 1454.314476] RSP: 0000:ffffb9778359bcd0 EFLAGS: 00010286
+[ 1454.314509] RAX: 00000000ffffffff RBX: ffffecf513752d40 RCX: 000000000001ef5a
+[ 1454.314531] RDX: ffffb97785042000 RSI: 000000000000000d RDI: ffffecf513752d40
+[ 1454.314547] RBP: ffffb9778359bcd0 R08: ffffa0ffaa81f258 R09: ffffa0ffaa81f230
+[ 1454.314563] R10: ffffb9778412d008 R11: ffffb9778359bc00 R12: 00000000000000e6
+[ 1454.314579] R13: ffffb9778359bdd8 R14: ffffa0ffc18903c0 R15: 00007ffca5103000
+[ 1454.314595] FS:  00007fa83089e700(0000) GS:ffffa0fff6a00000(0000) knlGS:0000000000000000
+[ 1454.314612] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[ 1454.314626] CR2: 00007ffca5103268 CR3: 0000000532e63000 CR4: 00000000007406f0
+[ 1454.314644] DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+[ 1454.314660] DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+[ 1454.314676] PKRU: 55555554
+[ 1454.314683] Call Trace:
+[ 1454.314699]  read_swap_cache_sync+0x37/0x60
+[ 1454.314710]  swapin_readahead+0x3f/0x1c0
+[ 1454.314722]  ? pagecache_get_page+0x2d/0x2b0
+[ 1454.314733]  do_swap_page+0x2ff/0x760
+[ 1454.314744]  ? update_load_avg+0x5c7/0xa70
+[ 1454.314755]  __handle_mm_fault+0x77c/0x1140
+[ 1454.314766]  handle_mm_fault+0xce/0x240
+[ 1454.314777]  __do_page_fault+0x240/0x4e0
+[ 1454.314788]  trace_do_page_fault+0x37/0xe0
+[ 1454.314800]  do_async_page_fault+0x19/0x70
+[ 1454.314812]  async_page_fault+0x28/0x30
+[ 1454.314822] RIP: 0033:0x7fa82ee2ebee
+[ 1454.314831] RSP: 002b:00007ffca5103268 EFLAGS: 00010246
+[ 1454.314843] RAX: 00007fa7573fc010 RBX: 00007fa82ecff340 RCX: 00007fa7a980f010
+[ 1454.314859] RDX: 0000000000002000 RSI: 00000000046d4800 RDI: 0000000000002000
+[ 1454.314875] RBP: 00000000046d4688 R08: 0000000000000000 R09: 0000000000000000
+[ 1454.314891] R10: 0000000000002000 R11: 0000000000000000 R12: 00000000046d4670
+[ 1454.315192] R13: 00000000046d4648 R14: 00007fa82ee2eb70 R15: 00000000046d4580
+[ 1454.315390] Code: 69 ee 1f 00 31 c0 eb 9d 48 89 df e8 0d ca fa ff b8 f4 ff ff ff eb 8e 66 0f 1f 44 00 00 0f 1f 44 00 00 55 48 89 e5 e9 02 00 00 00 <0f> 0b e8 9b 64 00 00 85 c0 75 f5 5d c3 0f 1f 44 00 00 0f 1f 44
+[ 1454.315753] RIP: swap_readpage_sync+0xe/0x20 RSP: ffffb9778359bcd0
+[ 1454.317878] ---[ end trace f2c4b6c50d352469 ]---
+[ 1454.326791] ------------[ cut here ]------------
+[ 1454.326966] kernel BUG at mm/page_io.c:385!
+[ 1454.327130] invalid opcode: 0000 [#2] SMP
+[ 1454.327278] Modules linked in: fastswap_rdma(OE) rdma_ucm(OE) ib_ucm(OE) ib_ipoib(OE) ib_uverbs(OE) ib_umad(OE) mlx5_fpga_tools(OE) mlx5_ib(OE) mlx5_core(OE) mlxfw(OE) mlx4_ib(OE) edac_core kvm_intel kvm irqbypass input_leds intel_rapl_perf joydev serio_raw virtio_rng qemu_fw_cfg lpc_ich shpchp mac_hid ib_iser(OE) rdma_cm(OE) iw_cm(OE) ib_cm(OE) ib_core(OE) configfs iscsi_tcp libiscsi_tcp libiscsi scsi_transport_iscsi knem(OE) autofs4 btrfs raid10 raid456 async_raid6_recov async_memcpy async_pq async_xor async_tx xor raid6_pq libcrc32c raid1 raid0 multipath linear mlx4_en(OE) ptp pps_core hid_generic usbhid hid qxl crct10dif_pclmul ttm crc32_pclmul ghash_clmulni_intel drm_kms_helper pcbc syscopyarea sysfillrect aesni_intel sysimgblt aes_x86_64 fb_sys_fops crypto_simd mlx4_core(OE) ahci psmouse glue_helper
+[ 1454.328446]  devlink cryptd drm libahci mlx_compat(OE) virtio_blk virtio_net
+[ 1454.328615] CPU: 0 PID: 3073 Comm: time Tainted: G      D    OE   4.11.0-fastswap #1
+[ 1454.328782] Hardware name: QEMU Standard PC (Q35 + ICH9, 2009), BIOS ArchLinux 1.14.0-1 04/01/2014
+[ 1454.328953] task: ffffa0ffe7910000 task.stack: ffffb977850b4000
+[ 1454.329120] RIP: 0010:swap_readpage_sync+0xe/0x20
+[ 1454.329292] RSP: 0000:ffffb977850b79e0 EFLAGS: 00010286
+[ 1454.329461] RAX: 00000000ffffffff RBX: ffffecf513f138c0 RCX: 000000000001ef5a
+[ 1454.329628] RDX: ffffb97785042000 RSI: 000000000000000d RDI: ffffecf513f138c0
+[ 1454.329795] RBP: ffffb977850b79e0 R08: ffffa0ffaa81f010 R09: ffffa0ffaa81efe8
+[ 1454.329962] R10: ffffb9778412d008 R11: ffffb977850b7910 R12: 0000000000000012
+[ 1454.330128] R13: ffffb977850b7ae8 R14: ffffa0ffc19bcd80 R15: 00007ffc8c7b0000
+[ 1454.330302] FS:  00007f014993a700(0000) GS:ffffa0fff6a00000(0000) knlGS:0000000000000000
+[ 1454.330463] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[ 1454.330620] CR2: 00007ffc8c7b0878 CR3: 0000000501942000 CR4: 00000000007406f0
+[ 1454.330782] DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+[ 1454.330943] DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+[ 1454.331105] PKRU: 55555554
+[ 1454.331260] Call Trace:
+[ 1454.331417]  read_swap_cache_sync+0x37/0x60
+[ 1454.331576]  swapin_readahead+0x3f/0x1c0
+[ 1454.331736]  ? pagecache_get_page+0x2d/0x2b0
+[ 1454.331895]  do_swap_page+0x2ff/0x760
+[ 1454.332053]  __handle_mm_fault+0x77c/0x1140
+[ 1454.332210]  handle_mm_fault+0xce/0x240
+[ 1454.332382]  __do_page_fault+0x240/0x4e0
+[ 1454.332551]  trace_do_page_fault+0x37/0xe0
+[ 1454.332714]  do_async_page_fault+0x19/0x70
+[ 1454.332878]  async_page_fault+0x28/0x30
+[ 1454.333040] RIP: 0010:copy_user_enhanced_fast_string+0x5/0x10
+[ 1454.333204] RSP: 0000:ffffb977850b7d10 EFLAGS: 00050297
+[ 1454.333367] RAX: 0000000000000001 RBX: 00007ffc8c7b0878 RCX: 0000000000000090
+[ 1454.333533] RDX: 0000000000000090 RSI: ffffb977850b7d40 RDI: 00007ffc8c7b0878
+[ 1454.333706] RBP: ffffb977850b7d30 R08: ffffb977850b8000 R09: 0000000000000025
+[ 1454.333867] R10: ffffb977850b7e08 R11: ffffa0ffe8ed3810 R12: 0000000000000090
+[ 1454.334022] R13: ffffb977850b7d40 R14: 0000000000000c07 R15: 0000000000000010
+[ 1454.334176]  ? _copy_to_user+0x55/0x60
+[ 1454.334323]  getrusage+0x52/0x90
+[ 1454.334466]  wait_consider_task+0x45e/0xb50
+[ 1454.334615]  ? wait_consider_task+0x45e/0xb50
+[ 1454.334760]  do_wait+0xf0/0x230
+[ 1454.334904]  SyS_wait4+0x7b/0xf0
+[ 1454.335045]  ? task_stopped_code+0x50/0x50
+[ 1454.335185]  entry_SYSCALL_64_fastpath+0x1e/0xad
+[ 1454.335322] RIP: 0033:0x7f01494231aa
+[ 1454.335455] RSP: 002b:00007ffc8c7b0818 EFLAGS: 00000206 ORIG_RAX: 000000000000003d
+[ 1454.335594] RAX: ffffffffffffffda RBX: 0000000000603088 RCX: 00007f01494231aa
+[ 1454.335730] RDX: 0000000000000000 RSI: 00007ffc8c7b0824 RDI: 00000000ffffffff
+[ 1454.335871] RBP: 0000000000000004 R08: 00007ffc8c7b07a0 R09: 0000000000000000
+[ 1454.336026] R10: 00007ffc8c7b0878 R11: 0000000000000206 R12: 0000000000401760
+[ 1454.336165] R13: 00007ffc8c7b0a40 R14: 0000000000000000 R15: 00007ffc8c7b0a58
+[ 1454.336304] Code: 69 ee 1f 00 31 c0 eb 9d 48 89 df e8 0d ca fa ff b8 f4 ff ff ff eb 8e 66 0f 1f 44 00 00 0f 1f 44 00 00 55 48 89 e5 e9 02 00 00 00 <0f> 0b e8 9b 64 00 00 85 c0 75 f5 5d c3 0f 1f 44 00 00 0f 1f 44
+[ 1454.336615] RIP: swap_readpage_sync+0xe/0x20 RSP: ffffb977850b79e0
+[ 1454.336780] ---[ end trace f2c4b6c50d35246a ]---
+
