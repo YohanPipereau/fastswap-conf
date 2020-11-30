@@ -127,13 +127,13 @@ Swap:            0B          0B          0B
 
 # dmesg log
 
-* `dmesg_vm1.txt`: log of VM1
+* [dmesg_vm1.txt](dmesg_vm1.txt): log of VM1
 
 There are no custom drivers loaded on fastswap2
 
 # Hardware specs
 
-* `libvirt_vm1.xml` : libvirt configuration of VM1
-* `libvirt_vm2.xml`: libvirt configuration of VM2
+* [libvirt_vm1.xml](libvirt_vm1.xml): libvirt configuration of VM1
+* [libvirt_vm2.xml](libvirt_vm2.xml): libvirt configuration of VM2
 
 Mellanox Card: `Mellanox Technologies MT27500 Family [ConnectX-3]`
