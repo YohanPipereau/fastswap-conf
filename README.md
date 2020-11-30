@@ -8,8 +8,7 @@ I am testing communication between two VMs:
 
 ## Loading fastswap
 
-VM2
-===
+###### VM2
 ```
 /etc/init.d/opensmd start
 sleep 1
@@ -19,8 +18,7 @@ cd fastswap/farmemserver
 ./rmserver 50000
 ```
 
-VM1
-===
+###### VM1
 ```
 ip addr add 10.0.0.1/24 dev ib0
 ip link set up dev ib0
@@ -30,8 +28,7 @@ sudo insmod fastswap_rdma.ko sport=50000 sip="10.0.0.2" cip="10.0.0.1" nq=48
 
 ## Loading a swap device
 
-VM1
-===
+###### VM1
 ```
 fallocate -l 5G /swapfile
 mkswap /swapfile
@@ -40,8 +37,7 @@ swapon /swapfile
 
 ## Activating cgroups
 
-VM1
-====
+###### VM1
 ```
 mkdir /cgroup2
 ./setup/init_bench_cgroups.sh
@@ -50,8 +46,7 @@ source gen_protocol.sh
 
 ## Running benchmark
 
-VM1
-===
+###### VM1
 ```
 $ ./benchmark.py kmeans 0.5 --id 5
 Setting kmeans5 memory limit to 50% (2424M) of max
@@ -92,8 +87,7 @@ AttributeError: 'NoneType' object has no attribute 'groups'
 
 # Kernel infos
  
-On VM1:
-=======
+###### VM1:
 ```
 $ uname -a
 Linux fastswap1 4.11.0-fastswap #1 SMP Thu Nov 19 11:57:42 CET 2020 x86_64 x86_64 x86_64 GNU/Linux
@@ -103,8 +97,7 @@ $ cat /proc/cmdline
 BOOT_IMAGE=/boot/vmlinuz-4.11.0-fastswap root=UUID=37484c83-c39d-499e-8ecd-fd6c60ab90e9 ro cgroup_no_v1=memory
 ```
 
-On VM2:
-=======
+###### VM2:
 ```
 $ uname -a
 Linux fastswap2 4.11.0-fastswap #1 SMP Thu Nov 19 11:57:42 CET 2020 x86_64 x86_64 x86_64 GNU/Linux
@@ -116,8 +109,7 @@ BOOT_IMAGE=/boot/vmlinuz-4.11.0-fastswap root=UUID=af15b427-b147-4b55-95ee-41cc8
 
 # output of ‘free'
 
-VM1
-===
+###### VM1
 ```
 $ free -h
               total        used        free      shared  buff/cache   available
@@ -125,8 +117,7 @@ Mem:            18G        556M         17G        8.7M        577M         17G
 Swap:          5.0G        400K        5.0G
 ```
 
-VM2
-===
+###### VM2
 ```
 $ free -h
               total        used        free      shared  buff/cache   available
